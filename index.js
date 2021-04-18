@@ -6,3 +6,7 @@ module.context.use(router);
 router.get('/hello-world', function (req, res) {
 res.send({'res':'Hello World!'});
 });
+
+router.get('/welcome', function (req, res) {
+  res.send({'res':'Hello World!'});
+  });
