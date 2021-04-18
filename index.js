@@ -10,3 +10,7 @@ res.send({'res':'Hello World!'});
 router.get('/welcome', function (req, res) {
   res.send({'res':'Hello World!'});
   });
+
+router.get('/bye', function (req, res) {
+    res.send('bye World!');
+    });
